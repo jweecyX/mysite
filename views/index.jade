@@ -1,5 +1,53 @@
-extends layout
+doctype html
+html
+head
 
-block content
-  h1= title
-  p Welcome to #{title}
+    meta(charset='utf-8')
+    meta(name='viewport', content='width-device-width, initial scale=1.0, maximum-scale=1.0, user-scalable=no')
+    
+    link(rel='icon', type='image/png', href='images/favicon.png')
+   
+      
+    title Jweecy
+    
+    link(href='http://fonts.googleapis.com/css?family=Lato:300,400,700', rel='stylesheet', type='text/css')
+    
+
+    
+body
+
+    img(src='images/allium_by_takmaj-d7mc4ve.jpg')
+    
+    
+    nav.absolute
+      .contain
+        ul.navigation
+          li
+            a(href='#')
+              | WHAT I DO
+              span.icon-angle-down
+            ul
+              li
+                a(href='#getting-started') Music
+              li
+                a(href='#going-responsive') Woodworking
+              li
+                a(href='#forms') Art
+              li
+                a(href='#buttons') Programming
+                
+                
+    nav.absolute
+      .contain
+        ul.navigation
+          li
+            a(href='#')
+              | WHAT I DO
+              span.icon-angle-down
+            ul
+                li
+                    a(href='/userlist') User List
+                
+                li
+                    a(href='/register') Register
+                

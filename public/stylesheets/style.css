@@ -1,8 +1,39 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+html {
+    font-family: "Lato",sans-serif;
+    font-size: 16;
 }
 
+
+body {
+    margin: 0;
+    padding: 100px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    text-align: left
+        
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    background-color: #b0e0e6;
+}
 a {
-  color: #00B7FF;
+  color: #000;
+}
+
+
+.image {
+    text-align: center;
+    border(100px);
+    
 }

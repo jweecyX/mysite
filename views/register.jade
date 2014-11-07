@@ -2,20 +2,25 @@ extends layout
 
 block content
 
-    #home
-        a(href='/') Home 
+    header
+        a(href='/')
+            img(src='images/logo.png', alt='Home', style='width: 190px; height: 100px; margin-left: 20px;')
+            
+    body
+    
+        .container
+            h1= title
 
-    h1= title
-    
-    form#formRegister(name='adduser',method='post',action='adduser')
-        input#inputFirstName(type="text", placeholder="First Name", name="firstname")
-        | &nbsp
-        input#inputLastEmail(type="text", placeholder="Last Name", name="lastname")
-        | &nbsp
-        input#inputAlias(type="text", placeholder="Alias", name="alias")
-        | &nbsp
-        input#inputEmail(type="text", placeholder="E-Mail", name="email")
-        | &nbsp
-        button#btnSubmit(type="submit") Submit
-    
-    
+
+            form#formRegister(name='adduser',method='post',action='adduser')
+                input#inputFirstName(type="text", placeholder="First Name", name="firstname")
+                | &nbsp
+                input#inputLastEmail(type="text", placeholder="Last Name", name="lastname")
+                | &nbsp
+                input#inputAlias(type="text", placeholder="Alias", name="alias")
+                | &nbsp
+                input#inputEmail(type="text", placeholder="E-Mail", name="email")
+                | &nbsp
+                button#btnSubmit(type="submit") Submit
+
+

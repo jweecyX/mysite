@@ -12,15 +12,13 @@ body {
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     text-align: left;
     background-color: #fff;
-    background-image: url("/images/Waving_reeds_cinemagraph.gif");
+    background-image: url("/images/allium_by_takmaj-d7mc4ve.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+
         
 }
 
@@ -32,18 +30,13 @@ header{
     
 }
 
-header.a.logo{
-    width: 300px;
-    
-}
-
 
 ul.mainmenu {  
-    background: #a8a8a8; 
-    height: auto;
-    width: 150px; 
-    text-decoration: none;
-    text-decoration-line: none;
+    background: #333; 
+    height: 30px;
+    width: 100%; 
+    position: relative;  
+
 }
 
 ul.mainmenu > li { 
@@ -53,7 +46,7 @@ ul.mainmenu > li {
 }
 
 ul.mainmenu ul {
-    background: #a8a8a8; 
+    background: #444; 
     display: none; 
     position: relative;
     left: 0; top: 100%;

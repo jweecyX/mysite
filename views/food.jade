@@ -1,16 +1,25 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/foodstyle.css')
+    
+    meta(charset='utf-8')
+    meta(name='viewport', content='width-device-width, initial scale=1.0, maximum-scale=1.0, user-scalable=no')
+    
+    link(rel='icon', type='image/png', href='images/j.png')
+    
 
-extends layout
-
-block content    
-    body
-
+    block content
+    
+        body
+        
         header
             a(href='/')
                 img(src='images/logo.png', alt='Home', style='width: 150px; height: 40px; margin-left: 10px;')
 
 
-
-        .container
+         .container
             ul.mainmenu
                 li
                     a.sub-mainmenu(href='#')
@@ -46,21 +55,4 @@ block content
                         li
                             a(href='/register') Register
 
-
-
-
-     //                   
-        .image
-            p 
-                img(src='images/allium_by_takmaj-d7mc4ve.jpg')
-
-            p
-                img(src='images/dandelions_by_takmaj-d7ioecv.jpg')
-
-            p 
-                img(src='images/flamingos_by_takmaj-d7uuu33.jpg')
-
-
-        p#art
-
-
+        

@@ -28,9 +28,29 @@ router.get('/register', function(req, res){
 
 });
 
+router.get('/art', function(req, res){
+    res.render('art', { title: 'Art' })   
 
+});
+router.get('/food', function(req, res){
+    res.render('food', { title: 'Food' })   
 
+});
 
+router.get('/woodwork', function(req, res){
+    res.render('woodwork', { title: 'Woodwork' })   
+
+});
+
+router.get('/tech', function(req, res){
+    res.render('tech', { title: 'tech' })   
+
+});
+
+router.get('/music', function(req, res){
+    res.render('music', { title: 'Music' })   
+
+});
 router.post('/adduser', function(req, res) {
     var fn = req.body.firstname;
     var ln = req.body.lastname;

@@ -9,7 +9,7 @@ body {
     font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
     text-align: left;
     background-color: #fff;
-    background-image: url("/images/Waving_reeds_cinemagraph.gif");
+    background-image: url("/images/circuit.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -38,7 +38,7 @@ header.a.logo{
 ul.mainmenu {  
     background: #a8a8a8; 
     height: auto;
-    width: 120px; 
+    width: 150px; 
     text-decoration: none;
     text-decoration-line: none;
 }
